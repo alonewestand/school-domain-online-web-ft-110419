@@ -9,7 +9,7 @@ class School attr_accessor :name, :grade
   end
 
   def add_student(name, grade)
-    @name = name
+#    @name = name
   if @roster[grade]
      @roster[grade] << @name
   else
